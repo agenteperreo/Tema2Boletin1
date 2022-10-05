@@ -17,20 +17,11 @@ public class Ejercicio3 {
 		num1 = sc.nextDouble();
 		
 		//Condicionales para saber si es un numero casi cero
-		if (num1>=1) {
+		if (num1>=1 || num1<=-1 || num1==0) {
 			System.out.printf("El numero %.2f no es casi-cero",num1);
 		}else {
-			if ( num1<=-1) {
-				System.out.printf("El numero %.2f no es casi-cero",num1);
-			}else {
-				if (num1==0) {
-					System.out.printf("El numero %.2f no es casi-cero",num1);
-				}else {
-					System.out.printf("El numero %.2f es casi-cero",num1);
-				}
-			}
+			System.out.printf("El numero %.2f es casi-cero",num1);
 		}
-		
 	}
 
 }
