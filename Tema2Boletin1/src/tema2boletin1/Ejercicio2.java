@@ -24,6 +24,9 @@ public class Ejercicio2 {
 		} else {
 			System.out.printf("Los numeros %d y %d son diferentes",num1,num2);
 		}
+		
+		//Cerramos el escaner
+		sc.close();
 	}
 
 }

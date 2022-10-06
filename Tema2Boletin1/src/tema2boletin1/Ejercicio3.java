@@ -22,6 +22,9 @@ public class Ejercicio3 {
 		}else {
 			System.out.printf("El numero %.2f es casi-cero",num1);
 		}
+		
+		//Cerramos el esquema
+		sc.close();
 	}
 
 }
